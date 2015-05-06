@@ -2,9 +2,9 @@
   (:require [clojure.test :refer :all]
             [coin-changer.core :refer :all]))
 
-(deftest a-test
-  (testing "change-coins"
-    (are [amount change] (= (change-coins amount) change)
+(deftest coin-changer-test
+  (testing "change-for"
+    (are [amount change] (= (change-for amount) change)
          0 []
          1 [1]
          2 [1 1]
