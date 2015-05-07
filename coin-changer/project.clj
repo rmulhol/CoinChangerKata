@@ -1,9 +1,5 @@
-(defproject coin-changer "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.6.0"]]
-  :main ^:skip-aot coin-changer.core
-  :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+(defproject coin-changer "0.0.1-SNAPSHOT"
+  :description "Cool new project to do things and stuff"
+  :dependencies [[org.clojure/clojure "1.4.0"]]
+  :profiles {:dev {:dependencies [[midje "1.5.1"]]}})
+  

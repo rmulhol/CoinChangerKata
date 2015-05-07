@@ -1,9 +1,4 @@
-(ns coin-changer.core
-  (:gen-class))
-
-(defn -main
-  [& args]
-  (println "Behold, a mechanism for making change."))
+(ns coin-changer.core)
 
 (defn change-for [amount]
   (let [denominations [25 10 5 1]
